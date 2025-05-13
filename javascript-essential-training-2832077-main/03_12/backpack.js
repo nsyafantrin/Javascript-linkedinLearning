@@ -1,9 +1,9 @@
 
+// Creating Classes:
 /*
-Creating Classes:
+class declaration : class Name{}
+class expression : const Name = class {}
 
-Class Declaration : class Name {}
-Class Expression: const Name = class {}
 */
 
 class Backpack {
@@ -28,4 +28,14 @@ class Backpack {
         };
         this.lidOpen = lidOpen;
     }
+    // Add method like normal functions:
+    toggleLid(lidStatus) {
+        this.lidOpen = lidStatus;
+    }
+    newStrapLength(lengthLeft, lengthRight) {
+        this.strapLength.left = lengthLeft;
+        this.strapLength.right = lengthRight;
+    }
 }
+
+export default Backpack;
