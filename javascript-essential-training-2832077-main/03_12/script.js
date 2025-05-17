@@ -1,4 +1,4 @@
-import Backpack from "./Backpack.js";
+import Backpack from "./backpack.js";
 
 const everydayPack = new Backpack(
     "everyday backpack",
@@ -7,7 +7,8 @@ const everydayPack = new Backpack(
     15,
     26,
     26,
-    false
+    false,
+    10
 );
 
 console.log("The everydayPack object:", everydayPack);
