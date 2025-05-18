@@ -18,3 +18,13 @@ const everydayPack = new Backpack(
 
 console.log("The everydayPack object:", everydayPack);
 console.log("Date acquired:", everydayPack.dateAcquired);
+
+
+// console.log("Date:", everydayPack.dateAcquired);
+const event = new Date (everydayPack.dateAcquired);
+// console.log("Date:", event);
+console.log(event.toDateString());
+// everydayPack.dateAcquired = toString();
+// everydayPack.dateAcquired = toDateString();
+
+console.log("Days since aquired:", everydayPack.backpackAge());
