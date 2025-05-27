@@ -16,6 +16,8 @@ const everydayPack = new Backpack(
   "December 5, 2018 15:00:00 PST"
 );
 
+
+// TEMPLATE LITERAL
 const content = `
 <main>
       <article>
@@ -32,6 +34,10 @@ const content = `
       </article>
     </main>
 `;
+
+
+// TEMPLATE TRADITIONAL OUTPUT
+// const content = "<h1>" + everydayPack.name + "</h1>";
 
 document.body.innerHTML = content;
 
